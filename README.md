@@ -19,4 +19,4 @@
 * Документация по API QIWI Кассы - https://developer.qiwi.com/ru/bill-payments/
 
 ## Лицензия
-MIT
+[MIT](https://github.com/osk115/Qiwi4J/blob/main/LICENSE)
