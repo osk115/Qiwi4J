@@ -1,4 +1,4 @@
-![](https://i.imgur.com/3C563z3.png)
+![](https://i.imgur.com/3C563z3.png)  
 # Qiwi4J - Unofficial Qiwi payments API Java SDK
 Неофициальное API для внедрения платежной системы и эквайринга [QIWI-кошелька](https://qiwi.com)
 
@@ -20,3 +20,13 @@
 
 ## Лицензия
 [MIT](https://github.com/osk115/Qiwi4J/blob/main/LICENSE)
+
+---
+
+<p align="center">
+<img src=https://img.shields.io/github/v/release/osk115/Qiwi4J?color=orange&style=for-the-badge />
+<img src=https://img.shields.io/github/repo-size/osk115/Qiwi4J?color=orange&style=for-the-badge />
+<img src=https://img.shields.io/github/issues-raw/osk115/Qiwi4J?color=orange&style=for-the-badge />
+<img src=https://img.shields.io/github/release-date/osk115/Qiwi4J?color=orange&style=for-the-badge />
+<img src=https://img.shields.io/github/last-commit/osk115/Qiwi4J?color=orange&style=for-the-badge />
+</p>
