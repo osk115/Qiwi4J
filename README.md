@@ -28,4 +28,5 @@
 <img src=https://img.shields.io/github/issues-raw/osk115/Qiwi4J?color=orange&style=for-the-badge />
 <img src=https://img.shields.io/github/release-date/osk115/Qiwi4J?color=orange&style=for-the-badge />
 <img src=https://img.shields.io/github/last-commit/osk115/Qiwi4J?color=orange&style=for-the-badge />
+<img src=https://img.shields.io/github/license/osk115/Qiwi4J?color=orange&style=for-the-badge />
 </p>
