@@ -1,7 +1,6 @@
 package ru.osk.qiwi4j.bill;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.*;
 import lombok.experimental.FieldDefaults;
 import ru.osk.qiwi4j.bill.info.BillAmount;

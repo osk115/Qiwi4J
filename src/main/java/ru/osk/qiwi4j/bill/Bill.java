@@ -56,7 +56,6 @@ public class Bill {
                 .build();
 
         try (Response response = Qiwi4JClient.HTTP_CLIENT.newCall(request).execute()) {
-            System.out.println(Qiwi4JClient.OBJECT_MAPPER.writeValueAsString(this));
             return Qiwi4JClient.OBJECT_MAPPER.readValue(response.body().string(), BillInfo.class);
         } catch (IOException e) {
             throw new RuntimeException(e);
