@@ -39,9 +39,9 @@ public class Qiwi4JClient {
         }
     }
 
-    public BillInfo createBill(Bill bill) {
+    public BillInfo createBill(Bill bill, String id) {
         try {
-            return bill.create(secretKey);
+            return bill.create(secretKey, id);
         } catch (JsonProcessingException e) {
             throw new RuntimeException(e);
         }

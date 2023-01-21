@@ -11,7 +11,6 @@ import okhttp3.MediaType;
 import okhttp3.Request;
 import okhttp3.RequestBody;
 import okhttp3.Response;
-import org.jetbrains.annotations.NotNull;
 import ru.osk.qiwi4j.Qiwi4JClient;
 import ru.osk.qiwi4j.bill.info.BillAmount;
 import ru.osk.qiwi4j.bill.info.BillCustomer;
@@ -25,7 +24,6 @@ import java.time.ZonedDateTime;
 @FieldDefaults(level = AccessLevel.PRIVATE, makeFinal = true)
 public class Bill {
 
-    String billId;
     BillAmount amount;
     ZonedDateTime expirationDateTime;
     @JsonInclude(JsonInclude.Include.NON_NULL)
@@ -39,7 +37,7 @@ public class Bill {
         return expirationDateTime.toString();
     }
 
-    public BillInfo create(String secretKey) throws JsonProcessingException {
+    public BillInfo create(String secretKey, String billId) throws JsonProcessingException {
 
         String billUrl = Qiwi4JClient.BILLS_URL + billId;
 
