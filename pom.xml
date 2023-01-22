@@ -6,7 +6,7 @@
 
     <groupId>ru.osk.qiwi4j</groupId>
     <artifactId>Qiwi4J</artifactId>
-    <version>1.0.2</version>
+    <version>1.0.3</version>
 
     <name>Qiwi4J</name>
     <description>The unofficial SDK for the Qiwi payments written on Java</description>

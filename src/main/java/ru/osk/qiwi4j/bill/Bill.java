@@ -17,6 +17,7 @@ import ru.osk.qiwi4j.bill.info.BillCustomer;
 
 import java.io.IOException;
 import java.time.ZonedDateTime;
+import java.util.Map;
 
 @Getter
 @Builder
@@ -27,11 +28,11 @@ public class Bill {
     BillAmount amount;
     ZonedDateTime expirationDateTime;
     @JsonInclude(JsonInclude.Include.NON_NULL)
-    String phone;
-    @JsonInclude(JsonInclude.Include.NON_NULL)
     BillCustomer customer;
     @JsonInclude(JsonInclude.Include.NON_NULL)
     String comment;
+    @JsonInclude(JsonInclude.Include.NON_NULL)
+    Map<String, String> customFields;
 
     public String getExpirationDateTime() {
         return expirationDateTime.toString();

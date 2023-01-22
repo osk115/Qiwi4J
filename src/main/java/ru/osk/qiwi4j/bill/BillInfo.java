@@ -8,6 +8,8 @@ import ru.osk.qiwi4j.bill.info.BillCustomer;
 import ru.osk.qiwi4j.bill.info.BillRecipient;
 import ru.osk.qiwi4j.bill.info.BillStatus;
 
+import java.util.Map;
+
 @Getter
 @Builder
 @AllArgsConstructor
@@ -27,5 +29,6 @@ public class BillInfo {
     BillRecipient recipient;
     BillCustomer customer;
     String comment;
+    Map<String, String> customFields;
 
 }
