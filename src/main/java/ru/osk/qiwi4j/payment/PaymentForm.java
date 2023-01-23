@@ -25,6 +25,7 @@ public class PaymentForm {
     String account;
     String comment;
     String successUrl;
+    String customFields;
 
     public String createUrl(String publicKey) throws IOException {
 
@@ -39,6 +40,7 @@ public class PaymentForm {
         if (email != null) urlBuilder.addQueryParameter("email", email);
         if (comment != null) urlBuilder.addQueryParameter("comment", comment);
         if (successUrl != null) urlBuilder.addQueryParameter("successUrl", successUrl);
+        if (customFields != null) urlBuilder.addQueryParameter("customFields", customFields);
 
         return urlBuilder.build().url().toString();
 
